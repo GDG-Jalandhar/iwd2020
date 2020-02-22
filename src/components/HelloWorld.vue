@@ -11,11 +11,11 @@
       </v-col>
 
       <v-col class="mb-4">
-        <h1 class="display-2 mb-3">
+        <h1 class="google-font mb-3">
           International Women's Day 2020 Celebration
         </h1>
 
-        <p class="subheading font-weight-regular">
+        <p class="google-font font-weight-regular">
           Coming Soon
         </p>
       </v-col>
