@@ -9,7 +9,7 @@
           <p class="google-font">#GDGJalandhar &nbsp;&nbsp;&nbsp;&nbsp;  #WTMJalandhar &nbsp;&nbsp;  #GDG  &nbsp;&nbsp; #WTM  &nbsp;&nbsp; #WTM20 &nbsp;&nbsp;  #IWD20 &nbsp;&nbsp;   #IWDJalandhar  </p>
 
           <h3 class="google-font">Coming Soon...</h3>
-          
+
         </v-col>
         <v-col md="12" lg="3" xs="12" class="pt-3 pa-5"  >
          
@@ -34,21 +34,31 @@
       </v-row>
     </v-container>
 
+    <v-container fluid class="pa-0 py-2" >
+      <v-row justify="center" align="center">
+        <v-col md="12" lg="10" xs="12" class="py-0">
+          <partners />
+        </v-col>
+      </v-row>
+    </v-container>
+
 
 
   </v-content>
 </template>
 
 <script>
+import partners from '../components/common/partners'
 export default {
   components: {
+    partners
   },
   created(){
     let metaThemeColor = document.querySelector("meta[name=theme-color]");
     if(this.$vuetify.theme.dark){
       metaThemeColor.setAttribute("content", '#212121');
     }else{
-        metaThemeColor.setAttribute("content", '#0277bd');
+        metaThemeColor.setAttribute("content", '#f5f5f5');
     }
   }
 };

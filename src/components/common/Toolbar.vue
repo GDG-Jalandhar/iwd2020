@@ -1,6 +1,7 @@
 <template>
     <v-app-bar
       app
+      fixed
       elevate-on-scroll
     >
       <v-app-bar-nav-icon @click="toggleDrawer"></v-app-bar-nav-icon>
@@ -79,7 +80,7 @@
                 if(this.$vuetify.theme.dark){
                 metaThemeColor.setAttribute("content", '#212121');
                 }else{
-                metaThemeColor.setAttribute("content", '#0277bd');
+                metaThemeColor.setAttribute("content", '#f5f5f5');
                 }
             }
         }

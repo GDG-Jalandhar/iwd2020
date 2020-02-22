@@ -34,3 +34,7 @@
     border:1px solid #212121;
     border-radius:5px
 }
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }

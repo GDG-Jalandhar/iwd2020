@@ -2,10 +2,10 @@
     <v-navigation-drawer app temporary v-model="drawer">
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="title">
+          <v-list-item-title class="title google-font">
             IWD 2020
           </v-list-item-title>
-          <v-list-item-subtitle>
+          <v-list-item-subtitle class="google-font">
             WomenTechmakers Jalandhar
           </v-list-item-subtitle>
         </v-list-item-content>
